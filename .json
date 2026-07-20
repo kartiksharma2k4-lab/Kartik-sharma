@@ -1,0 +1,19 @@
+{
+  "name": "yt-shorts-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that lets Claude generate Veo 3 clips, ElevenLabs voiceovers, and upload YouTube Shorts",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "@google/genai": "^0.3.0",
+    "googleapis": "^144.0.0",
+    "node-fetch": "^3.3.2",
+    "zod": "^3.23.8",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
